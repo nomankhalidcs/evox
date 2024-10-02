@@ -183,7 +183,7 @@ color: #FFFFFF;
     .EVoxHero_Right {
       background-image: none !important;
       background: #323232 !important;
-      border-radius: 10px !important;
+      border-radius: 0px !important;
     }
     .HeroAlloverContianer{
       padding: 0px !important;
@@ -242,7 +242,7 @@ text-align: left;
       padding-left: 30px;
     }
   }
- @media (max-width:500px) {
+ @media (max-width:1000px) {
     .EVoxHero_Right {
         border-radius: 0px !important;
     }

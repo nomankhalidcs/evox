@@ -1,0 +1,243 @@
+/* .Hero_SVGS{
+    background: #323232;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+}
+.Hero_Svg_Container{
+    display: flex; 
+    padding-top: 17px;
+    align-items: center;
+    gap: 4px;
+
+}
+.Hero_SVGS:hover{
+    background-color: #139ED5;
+  }
+  .Hero_Follow_us{
+    font-family: 'Poppins';
+font-size: 17px;
+font-weight: 700;
+line-height: 25.5px;
+text-align: left;
+padding-bottom: 5px !important;
+  }
+  .Hero_PText_FeelFree_to{
+    font-family: 'Poppins';
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+
+
+  }
+  .EVoxHero_Right{
+    background-image: url('/public/Images/evoxRectangl.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  border-radius: 50px;
+ 
+  }
+  .Span_Effective{
+    font-family: "PoppinsBold";
+font-size: 13px;
+font-weight: 400;
+line-height: 19.5px;
+text-align: right;
+color: #FFFFFF;
+
+  }
+  .Hero_RightText_upDateOn{
+    font-family: 'Poppins';
+font-size: 13px;
+font-weight: 600;
+line-height: 19.5px;
+text-align: right;
+color: #FFFFFF;
+
+  }
+  .Hero_RightHtext_EvoX{
+    font-family: "PoppinsBold";
+font-size: 86px;
+font-weight: 700;
+line-height: 82px;
+text-align: left;
+text-transform: uppercase;
+color: #FFFFFF;
+
+
+  }
+  .Hero_RightTextContainerUp{
+    display: flex;
+   justify-content: space-between;
+   padding-top: 69px;
+  
+
+  }
+  .HeroTop_PTextPrivcy{
+    font-family: 'Poppins';
+   text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    
+
+color: #FFFFFF;
+padding-top: 57px !important;
+padding-left: 283px !important;
+
+  }
+  .Hero_TOp_ContainerRight{
+    padding: 46px 80px 96px 75px;
+  }
+  .WEBALign{
+    text-decoration: underline;
+    
+  }
+  .HeroAlloverContianer{
+    display: flex;
+    justify-content: space-between;
+    
+    padding:60px 54px 0px 65px ;
+    gap: 100px;
+  }
+  .HeroLeft_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .HeroTextdowntoPrivacyPoilcy{
+    display: none ;
+  }
+  .SmaalSCreenHeroAligmnt{
+    display: none;
+  }
+  .HeroTopAligmntOnsmallscreen{
+    display: none;
+  }
+  .PtextAlignOnSmal_ScreenFeelFree{
+    max-width: 159px;
+    font-family: 'Poppins';
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+color: #FFFFFF;
+
+  }
+  @media (max-width:1300px) {
+    .HeroTop_PTextPrivcy{
+      padding-left: 110px !important;
+
+    }
+    
+  }
+  @media (max-width:1100px) {
+    .HeroTop_PTextPrivcy{
+      padding-left: 0px !important;
+      padding-top: 10px !important;
+      
+
+    }
+    .HeroRI8Text{
+      display: none;
+    }
+    .HeroTextdowntoPrivacyPoilcy{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 10px;
+
+    }
+    
+  }
+  @media (max-width:1000px) {
+    
+    .HeroLeft_container {
+      display: none;
+    }
+    .SmaalSCreenHeroAligmnt{
+      display: flex;
+
+    }
+    .HeroTopAligmntOnsmallscreen{
+      display: flex;
+      flex-direction: column;
+      color: #FFFFFF;
+      align-items: flex-start;
+      padding-left: 40px;
+      padding-bottom: 35px;
+    }
+    .EVoxHero_Right {
+      background-image: none !important;
+      background: #323232 !important;
+      border-radius: 10px !important;
+    }
+    .HeroAlloverContianer{
+      padding: 0px !important;
+    }
+    
+  }
+  @media (max-width:500px) {
+    .Hero_TOp_ContainerRight{
+      padding: 25px 15px 40px  15px;
+    }
+    .Hero_RightHtext_EvoX {
+     
+font-size: 65.4px;
+font-weight: 700;
+line-height: 57.03px;
+text-align: left;
+
+
+    }
+    .Hero_RightText_upDateOn {
+     
+font-size: 9px;
+font-weight: 600;
+line-height: 13.5px;
+text-align: left;
+padding-top: 17px;
+
+    }
+    .Span_Effective{
+      
+font-size: 9px;
+font-weight: 400;
+line-height: 13.5px;
+text-align: left;
+padding-top: 17px;
+
+    }
+    .HeroTop_PTextPrivcy {
+     padding-top: 39px !important;
+font-size: 10.27px;
+font-weight: 400;
+line-height: 15.4px;
+text-align: left;
+
+    }
+    .PtextAlignOnSmal_ScreenFeelFree {
+      
+font-size: 7.89px;
+font-weight: 400;
+line-height: 11.83px;
+text-align: left;
+
+
+    }
+    .HeroTopAligmntOnsmallscreen {
+      padding-left: 30px;
+    }
+  }
+ 
+
+
+   */

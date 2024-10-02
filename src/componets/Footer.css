@@ -1,0 +1,328 @@
+.footer {
+    background: var(--Black, #323232);
+    color: #FFFFFF;
+    padding: 0px 70px ;
+    
+    padding-bottom: 50px;
+  }
+  .neechy-main {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .footer-section {
+    flex: 1;
+    margin: 20px;
+    min-width: 250px;
+  }
+  .evox-section{
+    margin: 0px;
+  }
+  .evox-section h4 {
+    font-family: PoppinsBold;
+    font-size: 51.97px;
+    font-weight: 700;
+    margin: 0px;
+    position: relative;
+    bottom: 25px;
+  }
+  .get-in-touch {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+  }
+  .get-in-touch h6 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    margin: 0px;
+    margin-bottom: 26px;
+  }
+  .get-in-touch p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
+    line-height: 36px;
+    color: #CFD3D7;
+  }
+  .footer-section p {
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .social-icons a {
+    display: inline-block;
+    background-color: #3B5998; 
+    color: #fff;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+ 
+  .social-icons .facebook {
+    background-color: #3B5998;
+    text-align: center;
+  }
+  .social-icons .twitter {
+    background-color: #00ACEE;
+    text-align: center;
+  }
+  .social-icons .linkedin {
+    background-color: #0077B5;
+    text-align: center;
+  }
+  .social-icons .instagram {
+    background-color:  #139ED5;
+    text-align: center;
+    ;
+  }
+  .newsletter h6 {
+    font-family: Poppins !important;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0px;
+  }
+  .newsletter p {
+    font-family: Poppins !important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #CFD3D7;
+  }
+  .newsletter input[type="email"] {
+    width: 100%;
+    height: 56px;
+    border-radius: 60px;
+    background: #FFFFFF;
+    border: none;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    padding-left: 20px;
+    color: #77808B;
+    margin-bottom: 20px;
+  }
+  .subscribe-btn {
+    width: 159px;
+    height: 53px;
+    padding: 16px 48px;
+    border-radius: 48px;
+    border: none;
+    background: #139ED5;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  .footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 178px;
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-bottom p {
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28.5px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .join-btn {
+    border: none;
+    background: linear-gradient(
+      259.99deg,
+      #335BA5 -11%,
+      #53C2DA 68.34%,
+      #5FC7D3 119.07%
+    );
+    width: 255px;
+    height: 80px;
+    padding: 21px 63px;
+    border-radius: 60px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+    color: #F4F4F4;
+  }
+  .evox-para {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0px;
+    /* margin-top: 32px; */
+    color: #CFD3D7;
+  }
+  .icons-p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #CFD3D7;
+    padding-top: 24px !important;
+  }
+  .get-started {
+    font-family: Poppins;
+    font-size: 161px;
+    font-weight: 700;
+    /* line-height: 241.5px; */
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    margin: 0px;
+  }
+  .text-wrapper {
+    display: flex;
+    gap: 100px;
+    white-space: nowrap;
+    animation: moveText 15s linear infinite;
+    margin: 0px;
+  }
+  @keyframes moveText {
+    0% {
+      transform: translateX(100%); /* Start outside from the right */
+    }
+    100% {
+      transform: translateX(-100%); /* Move completely to the left */
+    }
+  }
+  .location {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: start;
+  }
+  /* For screens less than 1200px */
+  @media (max-width: 1199px) {
+    .neechy-main {
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer-section,
+    .evox-section,
+    .get-in-touch,
+    .social-icons,
+    .newsletter {
+      margin: 10px 0;
+      text-align: center;
+    }
+    .footer-bottom {
+      margin-top: 20px;
+      margin-bottom: 60px;
+    }
+    .get-started {
+      font-size: 120px;
+      line-height: 180px;
+    }
+  }
+  /* For screens less than 992px */
+  @media (max-width: 991px) {
+    .footer-section,
+    .evox-section,
+    .get-in-touch,
+    .social-icons,
+    .newsletter {
+      min-width: 100%;
+      flex: none;
+    }
+    .get-started {
+      font-size: 100px;
+      line-height: 150px;
+    }
+    
+  }
+  /* For screens less than 768px */
+  @media (max-width: 767px) {
+    .get-started {
+      font-size: 80px;
+      line-height: 120px;
+    }
+    .footer-bottom p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .newsletter input[type="email"] {
+      height: 45px;
+    }
+  }
+  /* For screens less than 576px */
+  @media (max-width: 575px) {
+    .get-started {
+      font-size: 60px;
+      line-height: 90px;
+      text-align: center;
+    }
+    .footer-section,
+    .evox-section,
+    .get-in-touch,
+    .social-icons,
+    .newsletter {
+      margin: 10px;
+      text-align: center;
+    }
+    .footer-bottom p {
+      font-size: 14px;
+      line-height: 21px;
+    }
+    .location img {
+      width: 20px;
+      height: 20px;
+    }
+    .join-btn,
+    .subscribe-btn {
+     
+      padding: 10px;
+      font-size: 12px;
+      width: 100%;
+    }
+  }
+  /* For screens less than 400px */
+  @media (max-width: 400px) {
+    .get-started {
+      font-size: 50px;
+      line-height: 75px;
+    }
+    .footer-bottom p {
+      font-size: 12px;
+      line-height: 18px;
+    }
+    .join-btn,
+    .subscribe-btn {
+      padding: 10px;
+      font-size: 10px;
+    }
+  }
+    @media (max-width:575px) {
+      .footer {
+        padding: 0px 20px;
+      }
+      
+    }
+  
+  @media (max-width:800px) {
+    .get-started {
+      padding-top: 141px !important;
+    }
+    
+  }

@@ -1,0 +1,487 @@
+
+.RoadMapContainer {
+    background-image: url('/public/Images/Project.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
+    width: 100%; 
+    height: 1318px;;
+    display: flex;
+   
+   gap: 110px !important;
+
+     
+    
+  }
+  
+  .RoadmapCard {
+    display: flex;
+    flex-direction: column !important;
+  
+    
+    
+    color: white;
+   
+    width: 518px;
+    height: 311px;
+    border-radius: 19px;
+    background: #FFFFFF1A;
+
+    border: 1px solid rgb(216, 215, 215);
+    backdrop-filter: blur(10px);
+    
+    
+    padding: 20px 49px !important;
+  
+    
+    opacity:1;
+  
+    
+    
+  }
+  .RoadmapText{
+    font-family: Poppins !important;
+font-size: 97.04px !important;
+font-weight: 700 !important;
+line-height: 145.56px !important;
+color: black;
+padding: 0px 2px !important;
+
+
+
+
+
+
+  }
+  .RoadMapParagarph{
+    
+    font-family: Poppins !important;
+    
+    
+font-size: 13px !important;
+font-weight: 700 !important;
+line-height: 19.5px !important;
+color: black;
+
+
+  }
+  .FirstP{
+    font-family: poppins !important;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    line-height: 19.5px;
+    color: black;
+  }
+  .RoadMapContainer {
+    background-image: url('/public/Images/Project.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 110px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Default RoadmapCard */
+.RoadmapCard {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 518px;
+    height: 311px;
+    border-radius: 19px;
+    background: #FFFFFF1A;
+    border: 1px solid rgb(216, 215, 215);
+    backdrop-filter: blur(10px);
+    padding: 20px 49px;
+    opacity: 1;
+}
+
+/* RoadmapText */
+.RoadmapText {
+    font-family: Poppins, sans-serif;
+    font-size: 97.04px;
+    font-weight: 700;
+    line-height: 145.56px;
+    color: black;
+    padding: 0px 2px;
+}
+
+/* RoadMapParagarph */
+.RoadMapParagarph {
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 19.5px;
+    color: black;
+}
+
+/* FirstP */
+.FirstP {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19.5px;
+    color: black;
+}
+
+/* Media queries for responsiveness */
+
+/* For tablets and smaller devices */
+@media (max-width: 992px) {
+    .RoadmapCard {
+        width: 100%; /* Make the cards take full width */
+        height: auto; /* Allow height to adjust */
+        margin-bottom: 20px;
+    }
+    
+    .RoadmapText {
+        font-size: 60px; /* Reduce font size for headings */
+        line-height: 90px;
+    }
+
+    .RoadMapParagarph {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 576px) {
+    .RoadMapContainer {
+        flex-direction: column;
+        gap: 30px;
+        padding: 10px;
+    }
+
+    .RoadmapCard {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .RoadmapText {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .RoadMapParagarph {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .FirstP {
+        font-size: 11px;
+        line-height: 16px;
+    }
+}
+
+/* For extra small screens */
+@media (max-width: 400px) {
+    .RoadmapText {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .RoadMapParagarph {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .FirstP {
+        font-size: 10px;
+        line-height: 15px;
+    }
+}
+
+
+  .Tokenmics{
+    padding-top: 35px;
+    padding-left: 244px;
+  }
+  .Token{
+    font-family: PoppinsBold !important;
+font-size: 41px !important;
+font-weight: 700 !important;
+line-height: 39px !important;
+color: #139ED5;
+
+
+  }
+  .Token_text{
+    font-family: Poppins !important;
+font-size: 16px !important;
+font-weight: 400 !important;
+line-height: 24px !important;
+padding-top: 32px !important;
+color: #323232;
+
+
+  }
+  .Image{
+   padding: 125px 301px !important;
+   width: 100%;
+  }
+  .GarphImage{
+    padding: 0px 139px !important;
+    padding-top: 126px !important;
+  }
+  .Q2card{
+    margin-top: 240px !important;
+    padding-right:5px ;
+  }
+  /* For screens less than 1200px */
+@media (max-width: 1199px) {
+  .RoadMapContainer {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 50px !important;
+  }
+
+  .RoadmapCard {
+    width: 90%;
+    height: auto;
+    padding: 15px 30px !important;
+  }
+
+  .RoadmapText {
+    font-size: 80px !important;
+    line-height: 120px !important;
+  }
+
+  .RoadMapParagarph {
+    font-size: 12px !important;
+  }
+
+  .Tokenmics {
+    padding-left: 100px;
+  }
+
+  .Token {
+    font-size: 35px !important;
+    line-height: 35px !important;
+  }
+
+  .Image {
+    padding: 80px 100px !important;
+  }
+
+  .GarphImage {
+    padding: 80px 100px !important;
+  }
+}
+
+/* For screens less than 992px */
+@media (max-width: 991px) {
+  .RoadMapContainer {
+    height: auto;
+    gap: 40px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .RoadmapCard {
+    width: 100%;
+    padding: 10px 20px !important;
+  }
+
+  .RoadmapText {
+    font-size: 70px !important;
+    line-height: 110px !important;
+  }
+
+  .RoadMapParagarph {
+    font-size: 11px !important;
+  }
+
+  .Tokenmics {
+    padding-left: 50px;
+  }
+
+  .Image {
+    padding: 60px 50px !important;
+  }
+
+  .GarphImage {
+    padding: 60px 50px !important;
+  }
+}
+
+/* For screens less than 768px */
+@media (max-width: 767px) {
+  .RoadMapContainer {
+    gap: 30px !important;
+  }
+
+  .RoadmapCard {
+    width: 100%;
+    padding: 10px !important;
+  }
+
+  .RoadmapText {
+    font-size: 60px !important;
+    line-height: 90px !important;
+  }
+
+  .RoadMapParagarph {
+    font-size: 10px !important;
+  }
+
+  .Tokenmics {
+    padding-left: 20px;
+  }
+
+  .Image {
+    padding: 50px 20px !important;
+  }
+
+  .GarphImage {
+    padding: 50px 20px !important;
+  }
+}
+
+/* For screens less than 576px */
+@media (max-width: 575px) {
+  .RoadMapContainer {
+    gap: 20px !important;
+  }
+
+  .RoadmapCard {
+    width: 100%;
+    padding: 10px !important;
+  }
+
+  .RoadmapText {
+    font-size: 50px !important;
+    line-height: 75px !important;
+  }
+
+  .RoadMapParagarph {
+    font-size: 9px !important;
+  }
+
+  .Tokenmics {
+    padding-left: 10px;
+  }
+
+  .Token {
+    font-size: 30px !important;
+  }
+
+  .Image {
+    padding: 40px 10px !important;
+  }
+  .Image {
+    padding: 40px 10px !important;
+  }
+  
+  /* For medium screens (tablets) */
+  @media (max-width: 992px) {
+    .Image {
+      padding: 30px 8px !important; /* Adjust padding for tablets */
+    }
+  }
+  
+  /* For small screens (phones) */
+  @media (max-width: 576px) {
+    .Image {
+      padding: 20px 5px !important; /* Adjust padding for mobile devices */
+    }
+  }
+  
+  /* For extra small screens */
+  @media (max-width: 400px) {
+    .Image {
+      padding: 15px 3px !important; /* Further adjust for very small devices */
+    }
+  }
+  
+
+  .GarphImage {
+    padding: 40px 10px !important;
+  }
+}
+.GarphImage {
+  padding: 40px 10px !important;
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+}
+
+/* Ensure the image scales responsively */
+.GarphImage img {
+  width: 100%;
+  max-width: 1000px; /* Set a max width for large screens */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Media query for large tablets and small desktops (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .GarphImage img {
+      max-width: 800px; /* Reduce the max-width */
+  }
+}
+
+/* Media query for tablets (max-width: 992px) */
+@media (max-width: 992px) {
+  .GarphImage img {
+      max-width: 600px;
+  }
+}
+
+/* Media query for mobile devices (max-width: 768px) */
+@media (max-width: 768px) {
+  .GarphImage {
+      padding: 20px 5px !important;
+  }
+
+  .GarphImage img {
+      max-width: 100%; /* Make sure the image scales to the width of the screen */
+  }
+}
+
+/* Media query for small mobile devices (max-width: 576px) */
+@media (max-width: 576px) {
+  .GarphImage {
+      padding: 15px 5px !important;
+  }
+
+  .GarphImage img {
+      max-width: 100%; /* Full width for small screens */
+  }
+}
+
+
+/* For screens less than 400px */
+@media (max-width: 400px) {
+  .RoadMapContainer {
+    gap: 10px !important;
+  }
+
+  .RoadmapCard {
+    width: 100%;
+    padding: 5px !important;
+  }
+
+  .RoadmapText {
+    font-size: 40px !important;
+    line-height: 60px !important;
+  }
+
+  .RoadMapParagarph {
+    font-size: 8px !important;
+  }
+
+  .Token {
+    font-size: 25px !important;
+  }
+
+  .Image {
+    padding: 30px 5px !important;
+  }
+
+}

@@ -1,0 +1,99 @@
+.HeroMidContainer {
+    padding: 202px 243px 141px 244px;
+}
+
+.HeroMidHedingCollection {
+    font-family: "PoppinsBold";
+    font-size: 41.44px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    color: #139ED5;
+}
+
+.HeroMidInfromatiuontext {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: rgba(50, 50, 50, 1);
+    padding-top: 32px !important;
+    padding-bottom: 16px !important;
+}
+
+.PtextHeroMidWhenusing {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(50, 50, 50, 1);
+}
+
+.litext, li {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(50, 50, 50, 1);
+    margin: 0px !important;
+}
+
+.HeroMidUsageData {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(50, 50, 50, 1);
+    padding-top: 30px !important;
+    padding-bottom: 10px !important;
+}
+
+.HeroMid_TextProvide {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #323232;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For screens up to 1440px */
+@media (max-width: 1440px) {
+    .HeroMidContainer {
+        padding: 180px 200px 120px 200px;
+    }
+}
+
+/* For screens up to 1200px */
+@media (max-width: 1200px) {
+    .HeroMidContainer {
+        padding: 160px 160px 100px 160px;
+    }
+}
+
+/* For screens up to 992px */
+@media (max-width: 992px) {
+    .HeroMidContainer {
+        padding: 140px 120px 80px 120px;
+    }
+}
+
+/* For screens up to 768px */
+@media (max-width: 768px) {
+    .HeroMidContainer {
+        padding: 120px 80px 60px 80px;
+    }
+}
+
+/* For screens up to 576px */
+@media (max-width: 576px) {
+    .HeroMidContainer {
+        padding: 100px 15px 40px 15px;
+    }
+}

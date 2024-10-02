@@ -1,0 +1,30 @@
+.LiSet{
+    display: flex;
+    gap: 40px;
+ text-decoration: none !important;
+    color: #C4C4C4;
+    font-family: 'Poppins-Regular';
+    
+}
+.CardText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px !important;
+    text-align: center;
+    font-weight: 500px !important;
+    font-family:Poppins !important;
+    color:#F4F4F4;
+    margin-top: 15px !important;
+}
+.CardText2{ display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px !important;
+    text-align: center;
+    font-weight: 500px !important;
+    font-family:Poppins !important;
+    color:#F4F4F4;
+   
+
+}

@@ -1,0 +1,293 @@
+.Container{
+    margin-top: 71px;
+    padding: 162px 157px ;
+}
+
+
+
+.HeadingHow{
+    font-family: PoppinsBold !important;
+font-size: 41px !important;
+font-weight: 700 !important;
+line-height: 39px;
+color: #139ED5;
+width: 247px;
+height: 45px;
+top: 1054px;
+left: 597px;
+gap: 0px;
+opacity: 0px;
+
+
+
+
+}
+.Text{
+   font-family: Poppins !important;
+font-size: 16px !important;
+font-weight: 400 !important;
+line-height: 24px !important;
+text-align: left !important;
+width: 953px !important;
+height: 82px !important;
+top: 1131px !important;
+padding-top: 32px;
+gap: 0px;
+opacity: 0px;
+color: #323232 !important;
+
+}
+
+.CardContainer{
+    display: flex;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 96px;
+   
+    gap: 39px;
+    grid-template-columns: repeat(4,1fr) !important;
+    
+}
+.Card1{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  
+    text-align: center;
+    
+    width: 210.67px !important;
+    height: 275.37px !important;
+    gap: 0px;
+    border-radius: 16px  !important;
+    
+    background: #323232;
+ 
+    
+
+}
+.Card_text{
+    display: flex !important;
+    align-items: center !important;
+    text-align: center !important;
+   
+    font-family: Poppins !important;
+font-size: 97.04px !important;
+font-weight: 700 !important;
+margin: 0px !important;
+
+
+
+
+
+
+
+color: #FFFFFF;
+
+}
+.cardpragrph{
+    display: flex !important;
+   
+    align-items: center;
+    text-align: center;
+    font-family: Poppins !important;
+font-size: 14px !important;
+font-weight: 400 !important; 
+margin: 0px !important;
+text-align: center !important;
+
+
+
+color: #FFFFFF;
+
+}
+.RoadMap{
+    padding-top: 119px !important;
+}
+/* For screens less than 1200px */
+@media (max-width: 1199px) {
+    .Container {
+      padding: 120px 150px !important;
+    }
+  
+    .HeadingHow {
+      font-size: 35px !important;
+      width: auto;
+      height: auto;
+      opacity: 1 !important;
+    }
+  
+    .Text {
+      font-size: 14px !important;
+      width: 100% !important;
+      height: auto !important;
+    }
+  
+    .CardContainer {
+      grid-template-columns: repeat(3, 1fr) !important;
+      gap: 30px !important;
+    }
+  
+    .Card1 {
+      width: 180px !important;
+      height: 250px !important;
+    }
+  
+    .Card_text {
+      font-size: 80px !important;
+    }
+  
+    .cardpragrph {
+      font-size: 12px !important;
+      padding: 5px !important;
+    }
+  
+    .RoadMap {
+      padding-top: 80px !important;
+    }
+  }
+  
+  /* For screens less than 992px */
+  @media (max-width: 991px) {
+    .Container {
+      padding: 100px 100px !important;
+    }
+  
+    .HeadingHow {
+      font-size: 30px !important;
+      line-height: 35px !important;
+    }
+  
+    .Text {
+      font-size: 13px !important;
+      line-height: 20px !important;
+    }
+  
+    .CardContainer {
+      grid-template-columns: repeat(2, 1fr) !important;
+      gap: 20px !important;
+    }
+  
+    .Card1 {
+      width: 160px !important;
+      height: 230px !important;
+    }
+  
+    .Card_text {
+      font-size: 70px !important;
+    }
+  
+    .cardpragrph {
+      font-size: 11px !important;
+    }
+  
+    .RoadMap {
+      padding-top: 70px !important;
+    }
+  }
+  
+  /* For screens less than 768px */
+  @media (max-width: 767px) {
+    .Container {
+      padding: 80px 60px !important;
+    }
+  
+    .HeadingHow {
+      font-size: 28px !important;
+      line-height: 32px !important;
+    }
+  
+    .Text {
+      font-size: 12px !important;
+      width: 100% !important;
+      padding-top: 20px;
+    }
+  
+    .CardContainer {
+      /* grid-template-columns: 1fr !important; */
+      gap: 15px !important;
+    }
+  
+    .Card1 {
+      width: 100% !important;
+      height: auto !important;
+    }
+  
+    .Card_text {
+      font-size: 60px !important;
+    }
+  
+    .cardpragrph {
+      font-size: 10px !important;
+    }
+  
+    .RoadMap {
+      padding-top: 60px !important;
+    }
+  }
+  
+  /* For screens less than 576px */
+  @media (max-width: 575px) {
+    .Container {
+      padding: 60px 40px !important;
+    }
+  
+    .HeadingHow {
+      font-size: 24px !important;
+      line-height: 28px !important;
+    }
+  
+    .Text {
+      font-size: 11px !important;
+      padding-top: 15px;
+    }
+  
+    .Card_text {
+      font-size: 50px !important;
+    }
+    .Card1:hover{
+      background-color: #139ED5;
+    }
+    .Card1 {
+      width: 100% !important;
+      height: auto !important;
+      padding: 10px !important;
+    }
+  
+    .cardpragrph {
+      font-size: 9px !important;
+    }
+  
+    .RoadMap {
+      padding-top: 50px !important;
+    }
+  }
+  
+  /* For screens less than 400px */
+  @media (max-width: 400px) {
+    .Container {
+      padding: 50px 20px !important;
+    }
+  
+    .HeadingHow {
+      font-size: 20px !important;
+    }
+  
+    .Text {
+      font-size: 10px !important;
+    }
+  
+    .Card_text {
+      font-size: 40px !important;
+    }
+  
+    .cardpragrph {
+      font-size: 8px !important;
+    }
+  
+    .RoadMap {
+      padding-top: 40px !important;
+    }
+  }
+  
